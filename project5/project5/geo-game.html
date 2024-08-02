@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Geography Games - Play School </title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/logo3.png" alt="Educational Games Logo">
+      
+    </div>
+    
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="support.html">Support</a></li>
+          <li><a href="games.html">Games</a></li>
+        </ul>
+        <input type="text" id="searchBar" placeholder="Search...">
+      </nav>
+  </header>
+  <main>
+    
+
+    <!--GEOGRAPHY GAME CODE_1-->
+    <div class="game" id="capitalCities">
+      <h1>Geography Games</h1>
+        <h3>1. Geography Quiz: Capital Cities</h3>
+        <h4>Description:</h4>
+        <p>Test your knowledge of capital cities around the world.</p>
+        <p id="geoQuestion"></p>
+        <input type="text" id="geoAnswer" placeholder="Enter your answer">
+        <button onclick="checkGeoAnswer()">Submit</button>
+        <p id="geoResult"></p>
+      </div>
+      
+
+    <!--GEOGRAPHY GAME CODE_2-->
+    <div class="game" id="countryFlags">
+        <h3>2. Geography Quiz: Country Flags</h3>
+        <h4>Description:</h4>
+        <p>Test your knowledge of world flags.</p>
+        <p id="flagQuestion"></p>
+        <input type="text" id="flagAnswer" placeholder="Enter your answer">
+        <button onclick="checkFlagAnswer()">Submit</button>
+        <p id="flagResult"></p>
+      </div>
+      
+
+
+  </main>
+
+
+  <footer>
+    <p>&copy;Play School - 2024 Educational Games</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

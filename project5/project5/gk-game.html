@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>General Knowledge Games - Play School </title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/logo3.png" alt="Educational Games Logo">
+      
+    </div>
+    
+    
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="support.html">Support</a></li>
+          <li><a href="games.html">Games</a></li>
+        </ul>
+        <input type="text" id="searchBar" placeholder="Search...">
+      </nav>
+  </header>
+  <main>
+    
+
+    <!--GK GAME CODE_1-->
+    <div class="game" id="trueOrFalse">
+      <h1>General Knowledge Games</h1>
+        <h3>1. General Knowledge: True or False</h3>
+        <h4>Description:</h4>
+        <p>Test your general knowledge by determining whether the statements are true or false.</p>
+        <p id="tfQuestion"></p>
+        <button onclick="checkTfAnswer(true)">True</button>
+        <button onclick="checkTfAnswer(false)">False</button>
+        <p id="tfResult"></p>
+      </div>
+      
+      <!--GK GAME CODE_2-->
+      <div class="game" id="multipleChoiceQuiz">
+        <h3>2. General knowledge: Multiple Choice Quiz</h3>
+        <h4>Description:</h4>
+        <p>Test your general knowledge with multiple-choice questions.</p>
+        <p id="mcQuestion"></p>
+        <div id="mcOptions"></div>
+        <button onclick="checkMcAnswer()">Submit</button>
+        <p id="mcResult"></p>
+      </div>
+      
+
+  </main>
+
+
+  <footer>
+    <p>&copy;Play School - 2024 Educational Games</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

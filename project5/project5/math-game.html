@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Math Games - Play School </title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/logo3.png" alt="Educational Games Logo">
+      
+    </div>
+   
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="support.html">Support</a></li>
+          <li><a href="games.html">Games</a></li>
+        </ul>
+        <input type="text" id="searchBar" placeholder="Search...">
+      </nav>
+  </header>
+  <main>
+    
+
+    <!--MATH GAME CODE_1-->
+
+    <div class="game" id="arithmeticChallenge">
+      <h1>Math Games</h1>
+        <h3>1. Math Game: Arithmetic Challenge </h3>
+          <h4>  Description: </h4>  <p>Test your basic arithmetic skills by solving a series of addition, subtraction, multiplication, and division problems.</p>
+        <p id="question"></p>
+        <input type="number" id="answer" placeholder="Enter your answer">
+        <button onclick="checkAnswer()">Submit</button>
+        <p id="result"></p>
+      </div>
+      
+     
+<div class="game" id="numberMemory">
+    <h3>2. Math Game: Number Memory</h3>
+    <h4>Description:</h4> 
+    <p>Improve your memory by remembering and typing a sequence of numbers.</p>
+    <h3>Number Memory</h3>
+    <p id="sequence"></p>
+    <input type="text" id="userSequence" placeholder="Enter the sequence">
+    <button onclick="checkSequence()">Submit</button>
+    <p id="memoryResult"></p>
+  </div>
+  
+
+
+
+  </main>
+
+
+  <footer>
+    <p>&copy; Play School - 2024 Educational Games</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
